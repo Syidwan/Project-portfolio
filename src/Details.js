@@ -3,7 +3,7 @@
 import logogradient from "./assets/logo.svg";
 import logo from "./assets/logo2.svg";
 // Profile Image
-import profile from "./assets/profile.jpg";
+import profile from "./assets/profile.png";
 // Tech stack images
 import html from "./assets/techstack/html.png";
 import css from "./assets/techstack/css.png";
@@ -19,10 +19,11 @@ import git from "./assets/techstack/git.png";
 import npm from "./assets/techstack/npm.png";
 import postman from "./assets/techstack/postman.png";
 import figma from "./assets/techstack/figma.png";
+import python from "./assets/techstack/python.png";
 // Porject Images
-import projectImage1 from "./assets/projects/project1.jpg";
-import projectImage2 from "./assets/projects/project2.jpg";
-import projectImage3 from "./assets/projects/project3.jpg";
+import projectImage1 from "./assets/projects/project1.png";
+import projectImage2 from "./assets/projects/project2.png";
+import projectImage3 from "./assets/projects/project3.png";
 import projectImage4 from "./assets/projects/project4.jpg";
 import projectImage5 from "./assets/projects/project5.jpg";
 import projectImage6 from "./assets/projects/project6.jpg";
@@ -35,60 +36,40 @@ export const logos = {
 
 // Enter your Personal Details here
 export const personalDetails = {
-  name: "Pavan MG",
-  tagline: "I build things for web",
-  img: profile,
-  about: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.`,
+   name: "Nirwan Rasyid Ridlo",
+  tagline: "Programmer | Fullstack Developer | Tech Enthusiast",
+  img: profile, // ganti dengan path/gambar profil kamu
+  about: `Passionate about contributing to the advancement of technology, a Software Developer specializing in Frontend Development with over a year of experience in personal and team projects. Skilled in React.js, Next.js, Node.js, Laravel, and Android Studio, with focus on creating innovative, user-friendly, and high-performance solutions. Enthusiastic about leveraging AI tools to optimize workflows and eager to contribute in a dynamic environment.`
 };
 
 // Enter your Social Media URLs here
 export const socialMediaUrl = {
-  linkdein: "https://www.linkedin.com/",
-  github: "https://www.github.com/",
+  linkdein: "https://www.linkedin.com/in/nirwan-rasyid-88b97a233/",
+  github: "https://github.com/Syidwan",
   twitter: "https://twitter.com/",
-  instagram: "https://www.instagram.com/",
+  instagram: "https://www.instagram.com/nirwan_rasyid/",
 };
 
 // Enter your Work Experience here
 export const workDetails = [
   {
-    Position: "Frontend Web Developer",
-    Company: `Company Name here`,
-    Location: "Bengaluru",
+    Position: "Counter Staff & Electronics Repair Technician",
+    Company: "Raffid Cellular",
+    Location: "Bandung, Indonesia",
     Type: "Full Time",
-    Duration: "Sep 2021 - Dec 2021",
-  },
-  {
-    Position: "Internship",
-    Company: `Company Name here`,
-    Location: "Bengaluru",
-    Type: "Internship",
-    Duration: "Sep 2021 - Dec 2021",
-  },
-  {
-    Position: "Internship",
-    Company: `Company Name here`,
-    Location: "Bengaluru",
-    Type: "Internship",
-    Duration: "Sep 2021 - Dec 2021",
+    Duration: "Jan 2024 – Feb 2024",
   },
 ];
+
 
 // Enter your Education Details here
 export const eduDetails = [
   {
-    Position: "Frontend Development",
-    Company: "Udemy, YouTube, Google, Medium",
-    Location: "Online",
+    Position: "Informatics Engineering Student",
+    Company: "UIN Sunan Gunung Djati Bandung",
+    Location: "Bandung, Indonesia",
     Type: "Full Time",
-    Duration: "Jan 2022 - Present",
-  },
-  {
-    Position: "Bachelor in Electronics & Communication",
-    Company: `Your College Name here`,
-    Location: "Bengaluru",
-    Type: "Full Time",
-    Duration: "Aug 2020 - Present",
+    Duration: "Aug 2022 - Present",
   },
 ];
 
@@ -99,7 +80,7 @@ export const techStackDetails = {
   js: js,
   react: react,
   redux: redux,
-  sass: sass,
+  python: python,
   tailwind: tailwind,
   bootstrap: bootstrap,
   vscode: vscode,
@@ -113,63 +94,34 @@ export const techStackDetails = {
 // Enter your Project Details here
 export const projectDetails = [
   {
-    title: "Project title 1",
-    image: projectImage1,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    title: "Digital Invitation – Website",
+    image: projectImage1, // ganti dengan path/gambar project kamu
+    description: `Digital Invitation adalah website untuk membuat undangan pernikahan interaktif dengan animasi dan berbagai template yang dapat dikustomisasi.`,
+    techstack: "React.js, Next.js, Tailwind CSS, Prisma, DaisyUI, Shadcn-UI, Framer Motion",
+    previewLink: "https://insite-beta.vercel.app/",
+    githubLink: "https://github.com/Alfthrpy/insite",
   },
-  {
-    title: "Project title 2",
+    {
+    title: "Project Assistant Web – Website",
     image: projectImage2,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    description: `Aplikasi manajemen proyek berbasis kanban untuk individu maupun tim, memungkinkan drag-and-drop task antar kolom untuk memantau progres secara real-time.`,
+    techstack: "Next.js, React.js, Prisma ORM, Clerk-Provider",
+    previewLink: "https://www.paw.my.id/",
+    githubLink: "", 
   },
   {
-    title: "Project title 3",
-    image: projectImage3,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    title: "AnonTweet – Mobile App",
+    image: projectImage3, 
+    description: `AnonTweet adalah platform media sosial anonim yang memungkinkan pengguna berbagi pemikiran, cerita, dan opini tanpa mengungkap identitas. `,
+    techstack: "Flutter, Firebase",
+    previewLink: "https://play.google.com/store/apps/details?id=com.ifuinbandung.anontweet", 
+    githubLink: "https://github.com/Alfthrpy/AnonTweet",  
   },
-  {
-    title: "Project title 4",
-    image: projectImage4,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
-  },
-  {
-    title: "Project title 5",
-    image: projectImage5,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
-  },
-  {
-    title: "Project title 6",
-    image: projectImage6,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
-  },
+  
 ];
 
 // Enter your Contact Details here
 export const contactDetails = {
-  email: "hi@example.com",
-  phone: "+91 12345 67890",
+  email: "nirwanrasyidridlo@gmail.com",
+  phone: "+62 895 2734 0406",
 };
