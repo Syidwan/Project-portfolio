@@ -7,7 +7,7 @@ import profile from "./assets/profile.png";
 // Tech stack images
 import html from "./assets/techstack/html.png";
 import css from "./assets/techstack/css.png";
-import sass from "./assets/techstack/sass.png";
+// import sass from "./assets/techstack/sass.png";
 import js from "./assets/techstack/js.png";
 import react from "./assets/techstack/react.png";
 import redux from "./assets/techstack/redux.png";
@@ -24,9 +24,9 @@ import python from "./assets/techstack/python.png";
 import projectImage1 from "./assets/projects/project1.png";
 import projectImage2 from "./assets/projects/project2.png";
 import projectImage3 from "./assets/projects/project3.png";
-import projectImage4 from "./assets/projects/project4.jpg";
-import projectImage5 from "./assets/projects/project5.jpg";
-import projectImage6 from "./assets/projects/project6.jpg";
+// import projectImage4 from "./assets/projects/project4.jpg";
+// import projectImage5 from "./assets/projects/project5.jpg";
+// import projectImage6 from "./assets/projects/project6.jpg";
 
 // Logos
 export const logos = {
@@ -46,7 +46,7 @@ export const personalDetails = {
 export const socialMediaUrl = {
   linkdein: "https://www.linkedin.com/in/nirwan-rasyid-88b97a233/",
   github: "https://github.com/Syidwan",
-  twitter: "https://twitter.com/",
+  // twitter: "https://twitter.com/",
   instagram: "https://www.instagram.com/nirwan_rasyid/",
 };
 
