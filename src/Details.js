@@ -24,7 +24,7 @@ import python from "./assets/techstack/python.png";
 import projectImage1 from "./assets/projects/project1.png";
 import projectImage2 from "./assets/projects/project2.png";
 import projectImage3 from "./assets/projects/project3.png";
-// import projectImage4 from "./assets/projects/project4.jpg";
+import projectImage4 from "./assets/projects/project4.jpeg";
 // import projectImage5 from "./assets/projects/project5.jpg";
 // import projectImage6 from "./assets/projects/project6.jpg";
 
@@ -117,6 +117,15 @@ export const projectDetails = [
     previewLink: "https://play.google.com/store/apps/details?id=com.ifuinbandung.anontweet", 
     githubLink: "https://github.com/Alfthrpy/AnonTweet",  
   },
+  {
+  title: "TruthCheck – Web App",
+  image: projectImage4, // ganti dengan screenshot aplikasi
+  description: `TruthCheck adalah aplikasi web berbasis NLP untuk mendeteksi dan memverifikasi klaim pendek secara otomatis. 
+  Menggunakan model Sentence-BERT (S-BERT) Bahasa Indonesia dengan pendekatan Retrieval-Augmented Generation (RAG) untuk mencocokkan klaim pengguna dengan dokumen referensi yang dikurasi.`,
+  techstack: "NLP, Sentence-BERT (S-BERT), Retrieval-Augmented Generation (RAG), Tailwind CSS",
+  previewLink: "https://truthcheck-frontend.vercel.app/", // isi dengan link demo jika ada
+  githubLink: "https://github.com/Alfthrpy/truthcheck-frontend",  // isi dengan link repo jika ada
+}
   
 ];
 
